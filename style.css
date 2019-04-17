@@ -197,10 +197,12 @@ a.right-navbar {
   color: #fefefe;
   font-size: 44px;
 }
+
 .sliderHeader-info-layout {
   margin-left: 18rem;
   margin-right: 20rem;
 }
+
 .btn-donate {
   border: 2px solid #fefefe !important;
   line-height: 0.1;
@@ -224,6 +226,14 @@ a.right-navbar {
   opacity: 6;
   text-align: center;
 }
+
+@media (max-width: 600px){
+  .sliderHeader-info-layout {
+    margin-left: 3rem;
+    margin-right: 20rem;
+  }
+}
+
 /* content styling */
 .content-container {
   margin-right: 1rem;
@@ -243,6 +253,7 @@ a.right-navbar {
 .content-container h3 {
   font-size: 36px;
 }
+
 .font-styles {
   font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
   text-transform: uppercase;
